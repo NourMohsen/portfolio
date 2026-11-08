@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Nour Omar - Flutter Developer</title>
+  <meta name="description" content="Nour builds polished Flutter apps for Android and iOS. See the apps, the toolkit and how to get in touch.">
+  <meta name="theme-color" content="#0B0E14">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Hanken+Grotesk:wght@400..700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Top bar (desktop + tablet) -->
+  <header class="topbar" id="topbar">
+    <div class="wrap topbar__inner">
+      <a class="mark" href="#home" aria-label="Back to top">
+        <span class="mark__glyph" data-bind="initials">N</span>
+        <span class="mark__name"><span data-bind="name">Nour Omar</span><span class="mark__role" data-bind="role">Flutter Developer</span></span>
+      </a>
+      <nav class="topnav" aria-label="Sections">
+        <a href="#apps">Apps</a>
+        <a href="#about">About</a>
+        <a href="#toolkit">Toolkit</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn--ghost btn--sm" data-bind-href="cv" href="#" download>
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></svg>
+        CV
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="wrap hero__copy">
+        <h1 id="hero-title" class="hero__title" data-bind="headline">I build Flutter apps that feel at home on every phone.</h1>
+        <p class="hero__intro" data-bind="intro"></p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#apps">
+            See the apps
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14m0 0-5-5m5 5 5-5"/></svg>
+          </a>
+          <a class="btn btn--ghost" data-bind-href="cv" href="#" download>
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></svg>
+            Download CV
+          </a>
+        </div>
+      </div>
+
+      <div class="stage">
+        <div class="wrap stage__inner">
+          <!-- Live code editor -->
+          <div class="editor" role="group" aria-labelledby="editor-title">
+            <div class="editor__bar">
+              <span class="editor__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="editor__file" id="editor-title">lib/main.dart</span>
+            </div>
+<pre class="editor__code"><code><span class="t-cls">MaterialApp</span>(
+  theme: <span class="t-cls">ThemeData</span>(
+    colorSchemeSeed: <button class="tok" type="button" data-tok="seed" aria-label="Change seed colour"><span class="tok__swatch"></span><span class="tok__val">Color(0xFF3D5AFE)</span></button>,
+    brightness: <button class="tok" type="button" data-tok="brightness" aria-label="Toggle brightness"><span class="tok__val">Brightness.dark</span></button>,
+  ),
+  home: <span class="t-cls">TodayScreen</span>(
+    density: <button class="tok" type="button" data-tok="density" aria-label="Toggle density"><span class="tok__val">Density.comfortable</span></button>,
+  ),
+);</code></pre>
+            <p class="console" aria-live="polite"><span class="console__prompt" aria-hidden="true">&gt;</span> <span id="console-msg">Tap a highlighted value, or press <kbd>r</kbd>, to hot reload.</span></p>
+          </div>
+
+          <!-- Phone -->
+          <div class="hero__device">
+            <div class="phone phone--hero" id="hero-phone">
+              <div class="phone__screen">
+                <div class="app" id="today-app" data-brightness="dark" data-density="comfortable" style="--seed:#3D5AFE"></div>
+                <div class="ribbon" id="ribbon" aria-hidden="true">HIRE ME</div>
+                <div class="sweep" aria-hidden="true"></div>
+              </div>
+              <span class="phone__cam" aria-hidden="true"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ APPS ============ -->
+    <section class="apps" id="apps" aria-labelledby="apps-title">
+      <div class="wrap">
+        <header class="sec-head">
+          <h2 id="apps-title" class="sec-title">Apps I've shipped</h2>
+          <p class="sec-lead">A selection of apps I've designed and built. Scroll through them one device at a time.</p>
+        </header>
+        <div class="apps__grid">
+          <div class="apps__stage" aria-hidden="true">
+            <div class="phone phone--sticky" id="sticky-phone">
+              <div class="phone__screen"><div class="sticky-slot"></div><div class="sweep"></div></div>
+              <span class="phone__cam"></span>
+            </div>
+            <p class="apps__caption" id="sticky-caption"></p>
+          </div>
+          <div class="apps__list" id="apps-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="wrap about__grid">
+        <figure class="portrait">
+          <div class="portrait__frame" id="portrait-frame">
+            <div class="portrait__fallback" aria-hidden="true"><span data-bind="initials">N</span></div>
+          </div>
+          <figcaption><span data-bind="fullName"></span><span class="portrait__loc" data-bind="location"></span></figcaption>
+        </figure>
+        <div class="about__text">
+          <h2 id="about-title" class="sec-title">Hi, I'm <span data-bind="name">Nour</span>.</h2>
+          <div id="about-body" class="prose"></div>
+          <dl class="principles" id="principles"></dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TOOLKIT ============ -->
+    <section class="toolkit" id="toolkit" aria-labelledby="toolkit-title">
+      <div class="wrap toolkit__grid">
+        <header class="sec-head sec-head--side">
+          <h2 id="toolkit-title" class="sec-title">The toolkit</h2>
+          <p class="sec-lead">What I reach for, written the way Flutter developers read it.</p>
+        </header>
+        <div class="editor editor--file">
+          <div class="editor__bar">
+            <span class="editor__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="editor__file">pubspec.yaml</span>
+          </div>
+          <pre class="editor__code yaml" id="yaml"></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ JOURNEY ============ -->
+    <section class="journey" id="journey" aria-labelledby="journey-title">
+      <div class="wrap">
+        <header class="sec-head">
+          <h2 id="journey-title" class="sec-title">Journey</h2>
+        </header>
+        <div class="journey__cols">
+          <div>
+            <h3 class="sub-title">Experience</h3>
+            <ol class="timeline" id="experience"></ol>
+          </div>
+          <div>
+            <h3 class="sub-title">Education &amp; training</h3>
+            <ol class="timeline" id="education"></ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact__inner">
+        <h2 id="contact-title" class="contact__title">Got an app in mind? Let's ship it.</h2>
+        <p class="contact__lead">Open to full-time roles and freelance Flutter projects. <span data-bind="responseNote"></span></p>
+        <div class="contact__links">
+          <ul class="contact__icons" aria-label="Contact">
+            <li><a class="icon-btn" id="mail-link" href="#" aria-label="Email" title="Email">
+              <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/></svg>
+            </a></li>
+            <li><a class="icon-btn" id="tel-link" href="#" aria-label="Call" title="Call">
+              <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h3.5l1.8 4.5-2.3 1.4a11 11 0 0 0 6.1 6.1l1.4-2.3L20 15.5V19a1 1 0 0 1-1 1A16 16 0 0 1 4 5a1 1 0 0 1 1-1Z"/></svg>
+            </a></li>
+            <li><a class="icon-btn" id="wa-link" href="#" target="_blank" rel="noopener" aria-label="WhatsApp" title="WhatsApp">
+              <svg class="ico ico--fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2A9.8 9.8 0 0 0 3.6 17l-1.3 4.8 4.9-1.3A9.8 9.8 0 1 0 12 2.2Zm0 17.8a8 8 0 0 1-4.1-1.1l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 1 1 12 20Zm4.4-6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.8.9c-.1.2-.3.2-.5.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5a.9.9 0 0 0-.6.3 2.7 2.7 0 0 0-.9 2c0 1.2.9 2.3 1 2.5.1.2 1.7 2.6 4.2 3.7 1.6.7 2.2.7 3 .6.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1l-.5-.4Z"/></svg>
+            </a></li>
+            <li><a class="icon-btn" id="li-link" href="#" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+              <svg class="ico ico--fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4v11H3v-11Zm7 0h3.8v1.5h.1c.5-1 1.8-1.8 3.7-1.8 4 0 4.4 2.5 4.4 5.8v5.5h-4v-4.9c0-1.2 0-2.7-1.7-2.7s-2 1.3-2 2.6v5H10v-11Z"/></svg>
+            </a></li>
+            <li><a class="icon-btn" id="gh-link" href="#" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+              <svg class="ico ico--fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.3-2.2-.3-4.6-1.1-4.6-5a3.9 3.9 0 0 1 1-2.7 3.6 3.6 0 0 1 .1-2.7s.8-.3 2.8 1a9.6 9.6 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7a3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9V21c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/></svg>
+            </a></li>
+          </ul>
+          <a class="btn btn--light" data-bind-href="cv" href="#" download>
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></svg>
+            Download CV
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>© <span id="year"></span> <span data-bind="fullName"></span></span>
+      <span>Designed and built by hand. <span class="footer__hint">Press <kbd>r</kbd> anywhere to hot reload.</span></span>
+    </div>
+  </footer>
+
+  <!-- Bottom navigation (phones) -->
+  <nav class="bottomnav" aria-label="Sections">
+    <a href="#home" data-nav="home"><span class="bn__pill"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5 12 4l8 6.5V20h-5.5v-5.5h-5V20H4z"/></svg></span>Home</a>
+    <a href="#apps" data-nav="apps"><span class="bn__pill"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg></span>Apps</a>
+    <a href="#about" data-nav="about"><span class="bn__pill"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8.5" r="3.75"/><path d="M4.5 20.5a7.5 7.5 0 0 1 15 0"/></svg></span>About</a>
+    <a href="#toolkit" data-nav="toolkit"><span class="bn__pill"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8.5 7-5 5 5 5m7-10 5 5-5 5"/></svg></span>Toolkit</a>
+    <a href="#contact" data-nav="contact"><span class="bn__pill"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/></svg></span>Contact</a>
+  </nav>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

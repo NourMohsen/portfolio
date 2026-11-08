@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-08T08:11:48.293Z",
+        "reason": "agent judged: full-bleed sections inset by .wrap padding and device-frame screens intentionally edge-to-edge; detector reads static CSS without layout context"
+      }
+    ]
+  }
+}

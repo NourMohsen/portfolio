@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T10:30:00Z",
+  "title": "Design System: Nour, Flutter Developer",
+  "extensions": {
+    "colorMeta": {
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "oklch(16.3% 0.014 264.1)", "tonalRamp": ["#0A0B0D", "#232529", "#3F4248", "#5D6169", "#7E828B", "#A1A5AE", "#C6C9D0", "#ECEEF4"] },
+      "ink-raised": { "role": "neutral", "displayName": "Raised Ink", "canonical": "oklch(20.6% 0.025 266.8)", "tonalRamp": ["#0A0B0F", "#22252C", "#3D424D", "#5B6170", "#7B8292", "#9EA5B5", "#C3C9D7", "#EAEEF8"] },
+      "ink-high": { "role": "neutral", "displayName": "High Ink", "canonical": "oklch(24.9% 0.032 265.9)", "tonalRamp": ["#090B10", "#21252E", "#3B4250", "#596174", "#798296", "#9BA5BA", "#C1C9DA", "#E9EFFB"] },
+      "line": { "role": "neutral", "displayName": "Line", "canonical": "oklch(30.2% 0.037 264.7)", "tonalRamp": ["#090B10", "#202530", "#3A4252", "#576177", "#778299", "#9AA5BD", "#C0C9DD", "#E8EFFC"] },
+      "line-soft": { "role": "neutral", "displayName": "Soft Line", "canonical": "oklch(25.3% 0.032 265.9)", "tonalRamp": ["#090B10", "#21252E", "#3B4250", "#596174", "#798296", "#9CA5BA", "#C1C9DA", "#E9EFFB"] },
+      "text": { "role": "neutral", "displayName": "Text", "canonical": "oklch(94.5% 0.012 264.5)", "tonalRamp": ["#0A0B0D", "#232528", "#3F4247", "#5E6168", "#7F828A", "#A1A5AD", "#C6C9CF", "#ECEEF3"] },
+      "muted": { "role": "neutral", "displayName": "Muted", "canonical": "oklch(72.9% 0.033 261.7)", "tonalRamp": ["#090B10", "#20252F", "#3A4251", "#576275", "#778397", "#9AA6BB", "#C0CADB", "#E8EFFB"] },
+      "faint": { "role": "neutral", "displayName": "Faint", "canonical": "oklch(58.1% 0.037 262.6)", "tonalRamp": ["#090B10", "#202530", "#394252", "#566277", "#778399", "#99A6BD", "#BFCADD", "#E7EFFC"] },
+      "cobalt": { "role": "primary", "displayName": "Electric Cobalt", "canonical": "oklch(52.6% 0.264 267.4)", "tonalRamp": ["#02032E", "#0A116C", "#1723B2", "#273EF3", "#4069FF", "#5E91FF", "#8DBFFF", "#C4EBFF"] },
+      "cobalt-deep": { "role": "primary", "displayName": "Deep Cobalt", "canonical": "oklch(45.2% 0.237 267.5)", "tonalRamp": ["#02052B", "#0B1765", "#192CA7", "#2A47E4", "#466FFF", "#6595FF", "#94C2FF", "#C9ECFF"] },
+      "sky": { "role": "secondary", "displayName": "Pale Sky", "canonical": "oklch(79.1% 0.126 233.7)", "tonalRamp": ["#000D19", "#002942", "#004970", "#006B9D", "#048DC1", "#42B1E7", "#85D4FF", "#C2F7FF"] },
+      "sky-ink": { "role": "secondary", "displayName": "Sky Ink", "canonical": "oklch(25.6% 0.053 239.6)", "tonalRamp": ["#050C12", "#172732", "#2C4557", "#44667D", "#65879F", "#87AAC4", "#B1CEE2", "#DEF2FF"] },
+      "sky-soft": { "role": "secondary", "displayName": "Sky Wash" },
+      "sky-hover": { "role": "secondary", "displayName": "Sky Hover" },
+      "ribbon": { "role": "tertiary", "displayName": "Debug Red", "canonical": "oklch(58.9% 0.196 25.6)", "tonalRamp": ["#1F0001", "#4E0003", "#83000A", "#B7091C", "#E0413F", "#FF6862", "#FF9E94", "#FFD3CA"] },
+      "code-text": { "role": "neutral", "displayName": "Code Text", "canonical": "oklch(86.5% 0.028 263.4)", "tonalRamp": ["#090B0F", "#21252D", "#3C424F", "#596172", "#7A8394", "#9CA5B8", "#C2C9D8", "#E9EFF9"] },
+      "code-class": { "role": "neutral", "displayName": "Code Class Blue", "canonical": "oklch(77.2% 0.115 263.8)", "tonalRamp": ["#040A1B", "#142345", "#273F74", "#3E5EA2", "#5E80C7", "#80A4EE", "#ABC9FF", "#D9EFFF"] },
+      "code-key": { "role": "neutral", "displayName": "Code Key (sky)" },
+      "device-black": { "role": "neutral", "displayName": "Device Black", "canonical": "oklch(12.1% 0.012 258.7)", "tonalRamp": ["#0A0B0D", "#232528", "#3F4247", "#5D6268", "#7E838A", "#A1A5AD", "#C5C9CF", "#ECEFF3"] },
+      "app-surface-light": { "role": "neutral", "displayName": "App Surface Light", "canonical": "oklch(98.5% 0.008 301.4)", "tonalRamp": ["#0B0B0C", "#252527", "#424145", "#626065", "#838187", "#A6A4A9", "#CAC8CD", "#EFEEF1"] },
+      "app-surface-dark": { "role": "neutral", "displayName": "App Surface Dark", "canonical": "oklch(18.8% 0.010 276.4)", "tonalRamp": ["#0B0B0D", "#242528", "#414247", "#5F6167", "#808289", "#A3A5AC", "#C7C9CE", "#EDEEF2"] },
+      "app-seed-default": { "role": "primary", "displayName": "Default App Seed", "canonical": "oklch(55.5% 0.243 268.8)", "tonalRamp": ["#03042C", "#0E1567", "#1D28A9", "#2F44E8", "#4A6CFF", "#6893FF", "#96C0FF", "#CAEBFF"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero headline only, max 17ch." },
+      "display-contact": { "displayName": "Display Contact", "purpose": "The contact call on cobalt, max 14ch." },
+      "headline": { "displayName": "Headline", "purpose": "Section titles." },
+      "headline-app": { "displayName": "Headline App", "purpose": "App names in the apps list; white when the case is active." },
+      "title": { "displayName": "Title", "purpose": "Timeline entry titles." },
+      "body-lead": { "displayName": "Body Lead", "purpose": "Hero intro and lead paragraphs, in muted." },
+      "body": { "displayName": "Body", "purpose": "Running copy at 46 to 62ch; 1rem under 760px." },
+      "label": { "displayName": "Label", "purpose": "Button labels." },
+      "label-nav": { "displayName": "Nav Label", "purpose": "Bottom navigation labels on phones." },
+      "code": { "displayName": "Code", "purpose": "Editor, YAML, console and kbd only; .74rem on phones, .69rem under 380px." },
+      "app-body": { "displayName": "In-App Body", "purpose": "Body text inside the phone, in container units." },
+      "app-title": { "displayName": "In-App Title", "purpose": "Screen titles inside the phone." }
+    },
+    "materials": [
+      { "name": "dot-grid-stage", "value": "background-color: #2D4BFF; background-image: radial-gradient(rgba(255,255,255,.16) 1px, transparent 1.2px); background-size: 22px 22px;", "purpose": "Every cobalt surface: hero stage, sticky apps stage, mobile phone plate, portrait frame, contact section." }
+    ],
+    "shadows": [
+      { "name": "device-drop", "value": "inset 0 0 0 1.5px #2C3549, inset 0 0 0 4px #090C12, 0 50px 80px -30px rgba(0,0,0,.75), 0 18px 30px -18px rgba(0,0,0,.6)", "purpose": "Phone frame bezel rings and drop onto the stage." },
+      { "name": "editor-drop", "value": "0 24px 48px -24px rgba(0,0,0,.55)", "purpose": "Code editor window standing on the stage." },
+      { "name": "ribbon-lift", "value": "0 2px 6px rgba(0,0,0,.35)", "purpose": "Debug ribbon over the phone screen." },
+      { "name": "app-fab", "value": "0 1.2cqw 3cqw -1cqw rgba(0,0,0,.35)", "purpose": "Floating action button inside the in-phone app." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(.16, 1, .3, 1)", "purpose": "The system's single easing curve for the sweep, settle, button press and progress." },
+      { "name": "hot-reload-sweep", "value": "sweep .55s cubic-bezier(.16,1,.3,1): a 38%-tall sky gradient band translates 0 -110% to 0 280%", "purpose": "Runs on the hero phone at every hot reload and on the sticky apps phone at every app swap. Nowhere else." },
+      { "name": "hot-reload-settle", "value": "settle .55s cubic-bezier(.16,1,.3,1): filter blur(3px) saturate(1.6), opacity .55 to none, 1", "purpose": "Paired with the sweep on the swapped screen content." },
+      { "name": "token-flash", "value": "tokflash .6s cubic-bezier(.16,1,.3,1): background from rgba(92,200,255,.55)", "purpose": "Flashes the editor token whose value just changed." },
+      { "name": "state-transition", "value": ".2s", "purpose": "Colour, border and background transitions on buttons, links and tokens." },
+      { "name": "reduced-motion", "value": "animation and transition durations .01ms", "purpose": "prefers-reduced-motion: reduce disables all motion." }
+    ],
+    "breakpoints": [
+      { "name": "phone", "value": "max-width: 759px", "purpose": "Single column, bottom navigation, 60px top bar, per-case cobalt phone plates." },
+      { "name": "tablet", "value": "760px to 1023px", "purpose": "Hero phone pulled up 380px instead of 560px." },
+      { "name": "compact-desktop", "value": "max-width: 1023px", "purpose": "About and Toolkit single column; apps sticky column 260 to 320px." },
+      { "name": "small-phone", "value": "max-width: 380px", "purpose": "Code drops to .69rem." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Sky pill for the single main action in a view.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">See the apps <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14m0 0-5-5m5 5 5-5\"/></svg></a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: .55em; min-height: 48px; padding: 0 1.3em; border-radius: 999px; font: 600 1rem/1 \"Hanken Grotesk\", system-ui, sans-serif; text-decoration: none; cursor: pointer; border: 1.5px solid transparent; transition: background-color .2s, border-color .2s, color .2s, transform .2s cubic-bezier(.16,1,.3,1); } .ds-btn:active { transform: translateY(1px) scale(.98); } .ds-btn:focus-visible { outline: 2px solid #5CC8FF; outline-offset: 3px; } .ds-btn-primary { background: #5CC8FF; color: #04263A; } .ds-btn-primary:hover { background: #86D7FF; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Line-bordered pill for the secondary action on ink (Download CV).",
+      "html": "<div style=\"background:#0B0E14;padding:16px\"><a class=\"ds-btn-ghost\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14\"/></svg>Download CV</a></div>",
+      "css": ".ds-btn-ghost { display: inline-flex; align-items: center; gap: .55em; min-height: 48px; padding: 0 1.3em; border-radius: 999px; font: 600 1rem/1 \"Hanken Grotesk\", system-ui, sans-serif; text-decoration: none; border: 1.5px solid #252E41; color: #E9EDF5; background: transparent; transition: background-color .2s, border-color .2s, transform .2s cubic-bezier(.16,1,.3,1); } .ds-btn-ghost:hover { border-color: #9CA8BD; background: #121723; } .ds-btn-ghost:active { transform: translateY(1px) scale(.98); } .ds-btn-ghost:focus-visible { outline: 2px solid #5CC8FF; outline-offset: 3px; }"
+    },
+    {
+      "name": "Light Button (on cobalt)",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "White pill used only on the cobalt contact stage.",
+      "html": "<div class=\"ds-stage\"><a class=\"ds-btn-light\" href=\"#\">WhatsApp</a> <a class=\"ds-btn-light\" href=\"#\">Download CV</a></div>",
+      "css": ".ds-stage { padding: 24px; background-color: #2D4BFF; background-image: radial-gradient(rgba(255,255,255,.16) 1px, transparent 1.2px); background-size: 22px 22px; display: flex; gap: 12px; } .ds-btn-light { display: inline-flex; align-items: center; min-height: 48px; padding: 0 1.3em; border-radius: 999px; font: 600 1rem/1 \"Hanken Grotesk\", system-ui, sans-serif; text-decoration: none; background: #fff; color: #0B0E14; transition: background-color .2s, transform .2s cubic-bezier(.16,1,.3,1); } .ds-btn-light:hover { background: #E7ECFF; } .ds-btn-light:active { transform: translateY(1px) scale(.98); } .ds-btn-light:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }"
+    },
+    {
+      "name": "Code Editor with Live Token",
+      "kind": "custom",
+      "refersTo": "editor",
+      "description": "Editor window on the stage; dashed sky tokens hot-reload the phone; console logs the reload.",
+      "html": "<div class=\"ds-editor\"><div class=\"ds-editor-bar\"><span class=\"ds-dots\"><i></i><i></i><i></i></span><span class=\"ds-file\">lib/main.dart</span></div><pre class=\"ds-code\"><span class=\"ds-cls\">ThemeData</span>(\n  colorSchemeSeed: <button class=\"ds-tok\" type=\"button\"><span class=\"ds-swatch\"></span>Color(0xFF3D5AFE)</button>,\n)</pre><p class=\"ds-console\"><span class=\"ds-prompt\">&gt;</span> Reloaded 1 of 412 libraries in <span class=\"ds-ok\">214ms</span>.</p></div>",
+      "css": ".ds-editor { background: #0B0E14; border: 1px solid #1E2740; border-radius: 14px; box-shadow: 0 24px 48px -24px rgba(0,0,0,.55); max-width: 560px; } .ds-editor-bar { display: flex; align-items: center; gap: 14px; padding: 12px 16px; border-bottom: 1px solid #1B2232; } .ds-dots { display: flex; gap: 6px; } .ds-dots i { width: 10px; height: 10px; border-radius: 50%; background: #252E41; } .ds-file { font: 500 .8rem/1 \"JetBrains Mono\", ui-monospace, monospace; color: #9CA8BD; } .ds-code { margin: 0; padding: 18px 20px 6px; font: 400 .875rem/1.85 \"JetBrains Mono\", ui-monospace, monospace; color: #C9D3E6; } .ds-cls { color: #8FB4FF; } .ds-tok { display: inline-flex; align-items: center; gap: .45em; font: inherit; line-height: 1.5; color: #5CC8FF; cursor: pointer; background: rgba(92,200,255,.14); border: 1px dashed rgba(92,200,255,.55); border-radius: 5px; padding: 0 .35em; transition: background-color .2s, border-color .2s; } .ds-tok:hover { background: rgba(92,200,255,.24); border-style: solid; } .ds-tok:focus-visible { outline: 2px solid #5CC8FF; outline-offset: 3px; } .ds-swatch { width: .8em; height: .8em; border-radius: 3px; background: #3D5AFE; box-shadow: 0 0 0 1px rgba(255,255,255,.25); } .ds-console { margin: 0; padding: 12px 20px 16px; border-top: 1px solid #1B2232; font: 400 .8rem/1.5 \"JetBrains Mono\", ui-monospace, monospace; color: #9CA8BD; } .ds-prompt { color: #5CC8FF; } .ds-ok { color: #7EE2A8; }"
+    },
+    {
+      "name": "Phone Frame with Debug Ribbon",
+      "kind": "custom",
+      "refersTo": "phone-frame",
+      "description": "Code-drawn proportional phone on the dot-grid stage; screen is a size container; red HIRE ME ribbon on the hero phone only.",
+      "html": "<div class=\"ds-plate\"><div class=\"ds-phone\"><div class=\"ds-screen\"><div class=\"ds-app\"><div class=\"ds-app-title\">Today</div><div class=\"ds-app-row\">Write widget tests</div><div class=\"ds-app-row\">Profile scroll jank</div></div><div class=\"ds-ribbon\">HIRE ME</div></div><span class=\"ds-cam\"></span></div></div>",
+      "css": ".ds-plate { display: flex; justify-content: center; padding: 32px 0; border-radius: 22px; background-color: #2D4BFF; background-image: radial-gradient(rgba(255,255,255,.16) 1px, transparent 1.2px); background-size: 22px 22px; } .ds-phone { --w: 220px; position: relative; width: var(--w); aspect-ratio: 9 / 19.5; padding: calc(var(--w) * .032); border-radius: calc(var(--w) * .16); background: #04060A; box-shadow: inset 0 0 0 1.5px #2C3549, inset 0 0 0 4px #090C12, 0 50px 80px -30px rgba(0,0,0,.75), 0 18px 30px -18px rgba(0,0,0,.6); } .ds-screen { position: relative; height: 100%; overflow: hidden; border-radius: calc(var(--w) * .13); container-type: inline-size; background: #121318; } .ds-cam { position: absolute; top: calc(var(--w) * .058); left: 50%; translate: -50% 0; width: calc(var(--w) * .04); aspect-ratio: 1; border-radius: 50%; background: #05070B; } .ds-app { padding: 16cqw 5.5cqw 0; color: #E4E3EA; font: 400 4cqw/1.35 \"Hanken Grotesk\", system-ui, sans-serif; display: flex; flex-direction: column; gap: 1.6cqw; } .ds-app-title { font: 700 8.6cqw/1.05 \"Hanken Grotesk\", system-ui, sans-serif; letter-spacing: -.02em; margin-bottom: 3cqw; } .ds-app-row { padding: 4.4cqw 3.6cqw; border-radius: 4cqw; background: color-mix(in oklab, #3D5AFE 7%, #121318); font-weight: 500; font-size: 3.9cqw; } .ds-ribbon { position: absolute; top: 7.5cqw; right: -9cqw; width: 42cqw; rotate: 45deg; background: #D93A3A; color: #fff; text-align: center; font: 700 3cqw/1 \"Hanken Grotesk\", system-ui, sans-serif; letter-spacing: .1em; padding: 1.4cqw 0; box-shadow: 0 2px 6px rgba(0,0,0,.35); }"
+    },
+    {
+      "name": "Timeline",
+      "kind": "custom",
+      "refersTo": "timeline-row",
+      "description": "Ruled list of experience and education; period column beside title, sky organisation and muted text.",
+      "html": "<div style=\"background:#0B0E14;padding:16px\"><ol class=\"ds-timeline\"><li><span class=\"ds-period\">2024 to now</span><div><div class=\"ds-t-title\">Flutter Developer</div><a class=\"ds-t-org\" href=\"#\">Studio name</a><p class=\"ds-t-text\">Built and shipped cross-platform apps.</p></div></li><li><span class=\"ds-period\">2022 to 2024</span><div><div class=\"ds-t-title\">Freelance Flutter Developer</div><a class=\"ds-t-org\" href=\"#\">Self-employed</a></div></li></ol></div>",
+      "css": ".ds-timeline { list-style: none; margin: 0; padding: 0; border-top: 1px solid #252E41; font-family: \"Hanken Grotesk\", system-ui, sans-serif; color: #E9EDF5; } .ds-timeline li { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: 4px 20px; padding: 22px 0; border-bottom: 1px solid #252E41; } .ds-period { color: #9CA8BD; font-size: .9rem; font-variant-numeric: tabular-nums; padding-top: 3px; } .ds-t-title { font: 600 1.12rem/1.3 \"Hanken Grotesk\", system-ui, sans-serif; } .ds-t-org { display: block; color: #5CC8FF; font-size: .95rem; margin-top: 2px; text-decoration: none; } .ds-t-org:hover { text-decoration: underline; } .ds-t-org:focus-visible { outline: 2px solid #5CC8FF; outline-offset: 3px; } .ds-t-text { color: #9CA8BD; font-size: .95rem; margin: 6px 0 0; }"
+    },
+    {
+      "name": "Top Navigation",
+      "kind": "nav",
+      "refersTo": "top-nav-link-active",
+      "description": "Desktop and tablet pill links in muted; raised ink on hover, high ink when active.",
+      "html": "<nav class=\"ds-topnav\"><a href=\"#\" class=\"is-active\">Apps</a><a href=\"#\">About</a><a href=\"#\">Toolkit</a><a href=\"#\">Journey</a><a href=\"#\">Contact</a></nav>",
+      "css": ".ds-topnav { display: flex; gap: 4px; background: #0B0E14; padding: 12px; } .ds-topnav a { padding: 8px 14px; border-radius: 999px; text-decoration: none; color: #9CA8BD; font: 500 .95rem/1.4 \"Hanken Grotesk\", system-ui, sans-serif; transition: color .2s, background-color .2s; } .ds-topnav a:hover { color: #E9EDF5; background: #121723; } .ds-topnav a.is-active { color: #E9EDF5; background: #1A2131; } .ds-topnav a:focus-visible { outline: 2px solid #5CC8FF; outline-offset: 3px; }"
+    },
+    {
+      "name": "Bottom Navigation (phones)",
+      "kind": "nav",
+      "refersTo": "bottom-nav",
+      "description": "Material 3-style five-item bar fixed to the bottom under 760px; active item gets a sky-wash pill.",
+      "html": "<nav class=\"ds-bottomnav\"><a href=\"#\" class=\"is-active\"><span class=\"ds-pill\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 10.5 12 4l8 6.5V20h-5.5v-5.5h-5V20H4z\"/></svg></span>Home</a><a href=\"#\"><span class=\"ds-pill\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"7\" y=\"2.5\" width=\"10\" height=\"19\" rx=\"2.5\"/><path d=\"M10.5 18.5h3\"/></svg></span>Apps</a><a href=\"#\"><span class=\"ds-pill\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"8.5\" r=\"3.75\"/><path d=\"M4.5 20.5a7.5 7.5 0 0 1 15 0\"/></svg></span>About</a><a href=\"#\"><span class=\"ds-pill\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8.5 7-5 5 5 5m7-10 5 5-5 5\"/></svg></span>Toolkit</a><a href=\"#\"><span class=\"ds-pill\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3\" y=\"5.5\" width=\"18\" height=\"13\" rx=\"2\"/><path d=\"m3.5 7 8.5 6 8.5-6\"/></svg></span>Contact</a></nav>",
+      "css": ".ds-bottomnav { display: grid; grid-template-columns: repeat(5, 1fr); padding: 8px 4px; background: #10141D; border-top: 1px solid #1B2232; max-width: 390px; } .ds-bottomnav a { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; min-height: 56px; text-decoration: none; color: #9CA8BD; font: 500 .72rem/1.2 \"Hanken Grotesk\", system-ui, sans-serif; } .ds-pill { width: 56px; height: 30px; border-radius: 999px; display: grid; place-items: center; transition: background-color .25s cubic-bezier(.16,1,.3,1); } .ds-pill svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; } .ds-bottomnav a:hover .ds-pill { background: #121723; } .ds-bottomnav a.is-active { color: #E9EDF5; } .ds-bottomnav a.is-active .ds-pill { background: rgba(92,200,255,.14); color: #5CC8FF; } .ds-bottomnav a:focus-visible { outline: 2px solid #5CC8FF; outline-offset: 3px; border-radius: 6px; }"
+    },
+    {
+      "name": "Stack Chip",
+      "kind": "chip",
+      "refersTo": "stack-chip",
+      "description": "Flat tech-stack chip under each app case.",
+      "html": "<div class=\"ds-stack\"><span>Flutter</span><span>Riverpod</span><span>Firebase</span></div>",
+      "css": ".ds-stack { display: flex; flex-wrap: wrap; gap: 8px; background: #0B0E14; padding: 12px; } .ds-stack span { font: 500 .85rem/1 \"Hanken Grotesk\", system-ui, sans-serif; padding: 8px 11px; border-radius: 8px; background: #121723; border: 1px solid #1B2232; color: #C9D3E6; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Hot-Reload Stage",
+    "overview": "The page is a dark device stage. An ink ground carries the reading; one saturated cobalt field, printed with a fine white dot grid, is the stage where devices stand. Phones are drawn in code, not photographed, and the apps inside them are live HTML sized in container units, so a seed colour, a brightness flag or a density setting in the editor genuinely re-themes the screen. Everything that proves craft happens on cobalt; everything that explains it happens on ink.\n\nThe personality is a working developer's desk rather than a showroom: Bricolage Grotesque headlines with real optical sizing, calm Hanken Grotesk body copy, and JetBrains Mono strictly where code lives. Density is generous on desktop (sections breathe at 88 to 150px) and collapses to a single column with an app-style bottom bar on phones. Motion is a single idea, the hot-reload sweep, and it is spent only where something actually reloads.\n\nThe vocabulary is borrowed from Flutter itself, not from portfolio templates: the red corner debug ribbon, the Material 3 navigation pill, the `pubspec.yaml` as a skills list, the console reporting a reload time.",
+    "keyCharacteristics": [
+      "Ink ground, one cobalt dot-grid stage, sky as the only working accent.",
+      "Device frames and in-phone apps are code, themed by a single `--seed` colour.",
+      "Display type with optical sizing; mono only for code.",
+      "One motion grammar: the hot-reload sweep plus settle.",
+      "Pill-shaped controls everywhere outside the phone; Material 3 shapes inside it."
+    ],
+    "rules": [
+      { "name": "The One Stage Rule", "body": "Cobalt is a field, not an accent. It appears as a dot-gridded surface that holds a device, a portrait or the contact call, and never as a button, link or text colour on ink.", "section": "colors" },
+      { "name": "The Sky Works Rule", "body": "On ink, sky is the only interactive colour. If something is clickable, focusable or \"live\", it is sky or sits on sky.", "section": "colors" },
+      { "name": "The Ribbon Is Singular Rule", "body": "Debug red appears once per page, on the hero phone's corner, and hides when the owner is not available for work.", "section": "colors" },
+      { "name": "The Mono Means Code Rule", "body": "JetBrains Mono appears only on things a developer would type or read in a terminal: the editor, YAML, console, kbd. Never for labels, metadata or decoration.", "section": "typography" },
+      { "name": "The Optical Size Rule", "body": "Every Bricolage heading sets `font-variation-settings: \"opsz\"` (96 for display and app names, 72 for section titles) and tightens tracking as size grows.", "section": "typography" },
+      { "name": "The Dot-Grid Material Rule", "body": "Every cobalt surface carries the same grid: a 1px white dot at 16% opacity on a 22px square repeat. No cobalt without the grid, no grid on ink.", "section": "layout" },
+      { "name": "The Objects-Only Shadow Rule", "body": "A shadow means \"this is a device or window standing on the stage\". Sections, rows, chips and buttons stay flat.", "section": "elevation" }
+    ],
+    "dos": [
+      "**Do** put every device, portrait or closing call on a cobalt plate with the 22px dot grid (1px white dot at 16%).",
+      "**Do** use sky for every interactive or live element on ink, with sky-ink text on sky fills.",
+      "**Do** draw devices in code with the proportional phone frame, and style anything inside the screen in container units from a single `--seed`.",
+      "**Do** keep page-level actions as 999px pills: sky primary, ghost secondary, light on cobalt, outline-small for per-item links.",
+      "**Do** set optical size on every Bricolage heading (opsz 96 for display, 72 for section titles).",
+      "**Do** reuse the hot-reload sweep (.55s, ease-out, with the settle blur) whenever a phone's content is swapped, and nowhere else.",
+      "**Do** switch to the bottom navigation and a single column below 760px, and pad the body by the bar height plus the safe area."
+    ],
+    "donts": [
+      "**Don't** use cobalt as a button, link or text colour on ink; it is a stage surface.",
+      "**Don't** set labels, metadata or headings in JetBrains Mono; mono is for code only.",
+      "**Don't** add shadows to sections, rows, chips or buttons; shadows belong to devices and the editor window standing on the stage.",
+      "**Don't** use debug red anywhere but the single hero ribbon.",
+      "**Don't** wrap content in cards; separate with 1px lines and tonal steps of ink.",
+      "**Don't** add a second motion idea; new animation should be the sweep or nothing."
+    ]
+  }
+}
